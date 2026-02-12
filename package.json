@@ -35,7 +35,6 @@
     "build": "tshy",
     "prepublishOnly": "npm run build"
   },
-  "peerDependencies": {},
   "devDependencies": {
     "@eslint/js": "^9.19.0",
     "eslint": "^9.19.0",
@@ -46,7 +45,7 @@
     "vitest": "^3.1.2"
   },
   "dependencies": {
-    "zod": "^3.25.0 || ^4.0.0"
+    "zod": "^4.3.6"
   },
   "exports": {
     ".": {
